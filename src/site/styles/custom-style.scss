@@ -3,16 +3,14 @@ body {
       ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
+    
     //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+     .content {
+        font-size: 18px;
+    }
     
     code{
         font-family: consolas, menlo, monospaced;
         color: #f06249
-    }
+    }   
 }
