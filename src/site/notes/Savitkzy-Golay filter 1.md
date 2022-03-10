@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true}
+{"dg-home":false,"dg-publish":true,"permalink":"/savitkzy-golay-filter-1/"}
 ---
 ```python
 import numpy as np
