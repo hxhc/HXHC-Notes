@@ -12,3 +12,4 @@ list where dg-publish=true & dg-home!=true
 2. [[1. Projects/Programming/Python/如何利用ssh端口转发访问Jupyter Lab|如何利用ssh端口转发访问Jupyter Lab]]
 3. [[1. Projects/algo/chemometrics/Savitkzy-Golay filter|Savitkzy-Golay filter]]
 4. [[3. Web-clip/Markdown下LaTeX公式、编号、对齐|Markdown下LaTeX公式、编号、对齐]]
+5. [[3. Web-clip/Mathjax test|Mathjax test]]
