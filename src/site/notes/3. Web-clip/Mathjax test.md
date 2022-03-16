@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/3-web-clip/mathjax-test/"}
+{"permalink":"/3-web-clip/mathjax-test/"}
 ---
 
 1. Tag support
@@ -26,7 +26,7 @@ $$
 a &= b \\
 c &= d \\
 e &= f
-\end{split}\tag{1.3}
+\end{split}\tag{1.2}
 $$
 This should render 3 lines, but may only render the 3 equations in just 1 line.
 Try the following code:
