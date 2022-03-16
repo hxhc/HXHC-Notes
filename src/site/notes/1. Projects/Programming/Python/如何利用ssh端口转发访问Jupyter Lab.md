@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/1-projects/programming/python/ssh-jupyter-lab/"}
+{"permalink":"/1-projects/programming/python/ssh-jupyter-lab/"}
 ---
 
 # 如何利用 ssh 端口转发访问 Jupyter Lab
