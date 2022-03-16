@@ -5,12 +5,12 @@ body {
    ***/
 
     background-color: #ffffff;
-    font-family: Bookerly, Geogria, serif;
+    font-family: Bookerly, Geogria, Roboto, "Microsoft Yahei", sans-serif;
     .content {
         max-width: 900px;
         margin: auto;
         font-size: 18px;
-        line-height: 1.5;
+        line-height: 1.8;
         color: black;
     }
    
@@ -29,6 +29,14 @@ body {
     
     a.external-link{
         color:#0f60bd;
+    }
+    
+    .external-link::after {
+        content: None;
+        position: absolute;
+        top: -4px;
+        right: -7px;
+        font-size: 12px;
     }
     
     h1{
