@@ -5,7 +5,7 @@ body {
    ***/
 
     background-color: #ffffff;
-    
+    font-family: Bookerly, Geogria, serif;
     .content {
         max-width: 900px;
         margin: auto;
@@ -23,7 +23,11 @@ body {
     }
     
     a{
-        color:#2685bbb4;
+        color:#005aa486;
+    }
+    
+    a.external-link{
+        color:#12781586;
     }
     
     h1{
@@ -37,6 +41,10 @@ body {
     }
     h4{
         color:#3481c5;
+    }
+    
+    li{
+        line-height: 1.8
     }
     
     code[class*="language-"], pre[class*="language-"] {
