@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"dg-permlink":"SG-filter","permalink":"/1-projects/algo/chemometrics/savitkzy-golay-filter/"}
+{"permalink":"/1-projects/algo/chemometrics/savitkzy-golay-filter/"}
 ---
 ```python
 import numpy as np
