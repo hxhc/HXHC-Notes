@@ -3,10 +3,13 @@ body {
       ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
-    .content{ 
+
     background-color: #ffffff;
-    color: auto;
-    font-family: Bookerly, Georgia, serif;
+    color:#000000;
+    .content{ 
+        background-color: #ffffff;
+        font-color: #000000;
+        font-family: Bookerly, Georgia, serif;
     }
    
     code{
