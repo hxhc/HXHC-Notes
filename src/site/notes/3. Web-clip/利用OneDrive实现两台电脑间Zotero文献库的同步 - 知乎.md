@@ -1,5 +1,5 @@
 ---
-{"dg-home":false,"dg-publish":true,"permalink":"/3-web-clip/one-drive-zotero/"}
+{"permalink":"/3-web-clip/one-drive-zotero/"}
 ---
 
 # 利用OneDrive实现两台电脑间Zotero文献库的同步 - 知乎
