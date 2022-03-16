@@ -15,7 +15,7 @@ body {
     }
    
     code{
-        font-family: consolas, menlo, monospaced;
+        font-family: Cascadia Mono, consolas, menlo, monospaced;
         color: #f06249
     } 
     pre{
@@ -23,11 +23,12 @@ body {
     }
     
     a{
-        color:#005aa486;
+        color:#3349cb;
+        border-bottom: None
     }
     
     a.external-link{
-        color:#12781586;
+        color:#0f60bd;
     }
     
     h1{
@@ -47,11 +48,14 @@ body {
         line-height: 1.8
     }
     
+    em{
+        color: #099d4e
+    }
+    
     code[class*="language-"], pre[class*="language-"] {
         font-family: Cascadia Mono, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
         font-size: 0.9em;
         line-height: 1.1;
-
     }
 
 }
