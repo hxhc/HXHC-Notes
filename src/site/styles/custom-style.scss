@@ -5,17 +5,26 @@ body {
    ***/
 
     background-color: #ffffff;
-    color:#000000;
-    .content{ 
-        background-color: #ffffff;
-        font-color: #000000;
-        font-family: Bookerly, Georgia, serif;
+    
+    content {
+        max-width: 900px;
+        margin: auto;
+        font-size: 18px;
+        line-height: 1.5;
+        color: black;
     }
    
     code{
         font-family: consolas, menlo, monospaced;
         color: #f06249
     } 
+    pre{
+        font-size: 0.93 rem;
+    }
+    
+    a{
+        color:#2685bbb4;
+    }
     
     h1{
         color:#08367c
@@ -29,4 +38,12 @@ body {
     h4{
         color:#3481c5;
     }
+    
+    code[class*="language-"], pre[class*="language-"] {
+        font-family: Cascadia Mono, Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+        font-size: 0.9em;
+        line-height: 1.1;
+
+    }
+
 }
