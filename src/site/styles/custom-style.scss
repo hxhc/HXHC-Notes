@@ -3,14 +3,27 @@ body {
       ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
-    
-    //  background-color: white;
-     .content {
-        font-size: 18px;
+    .content{ 
+    background-color: #ffffff;
+    color: auto;
+    font-family: Bookerly, Georgia, serif;
     }
-    
+   
     code{
         font-family: consolas, menlo, monospaced;
         color: #f06249
-    }   
+    } 
+    
+    h1{
+        color:#08367c
+    }
+    h2{
+        color:#004faa
+    }
+    h3{
+        color:#0e64bb
+    }
+    h4{
+        color:#3481c5;
+    }
 }
