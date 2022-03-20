@@ -1,5 +1,5 @@
 ---
-{"permalink":"/publish-home/","tags":"gardenEntry"}
+{"dg-publish":true,"permalink":"/publish-home/","tags":["gardenEntry"]}
 ---
 
 # Note sharing site based on [Obsidian](https://obsidian.md/) and [Digital Garden](https://github.com/oleeskild/Obsidian-Digital-Garden) plugin
