@@ -1,6 +1,7 @@
 ---
-{"permalink":"/1-projects/algo/chemometrics/savitkzy-golay-filter/"}
+{"dg-publish":true,"permalink":"/1-projects/algo/chemometrics/savitkzy-golay-filter/"}
 ---
+
 ```python
 import numpy as np
 from math import factorial
