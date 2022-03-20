@@ -1,5 +1,5 @@
 ---
-{"permalink":"/3-web-clip/mathjax-test/"}
+{"dg-publish":true,"permalink":"/3-web-clip/mathjax-test/"}
 ---
 
 1. Tag support
