@@ -12,3 +12,4 @@ list where dg-publish=true & dg-home!=true
 2. [[1. Projects/Programming/Python/如何利用ssh端口转发访问Jupyter Lab|如何利用ssh端口转发访问Jupyter Lab]]
 3. [[3. Web-clip/利用OneDrive实现两台电脑间Zotero文献库的同步 - 知乎|利用OneDrive实现两台电脑间Zotero文献库的同步 - 知乎]]
 4. [[3. Web-clip/Mathjax test|Mathjax test]]
+5. [[3. Web-clip/excalidraw_test|excalidraw test]]
