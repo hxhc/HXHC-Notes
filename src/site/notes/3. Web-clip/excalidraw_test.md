@@ -45,9 +45,6 @@ C:\Users\user\OneDrive\Zotero_storage ^d7sckug2
 Link (MkLink):
 C:\Users\user\Zotero\storage ^Rzx7vmWl
 
-Actual location
-C:\Users\user\OneDrive\Zotero_storage ^HzmeNA7I
-
 attachments ^pHjcWmOl
 
 
@@ -65,8 +62,8 @@ attachments ^pHjcWmOl
 	"elements": [
 		{
 			"type": "image",
-			"version": 157,
-			"versionNonce": 1118387025,
+			"version": 183,
+			"versionNonce": 558637073,
 			"isDeleted": false,
 			"id": "mOoapu0k",
 			"fillStyle": "hachure",
@@ -75,8 +72,8 @@ attachments ^pHjcWmOl
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 180,
-			"y": 380.00000000000006,
+			"x": 160,
+			"y": 380,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 711.223628691983,
@@ -85,7 +82,7 @@ attachments ^pHjcWmOl
 			"groupIds": [],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1647967439183,
+			"updated": 1647968704940,
 			"link": null,
 			"status": "pending",
 			"fileId": "198ad55870cdce7b42ae93ba02e33f9fecbd457b",
@@ -907,8 +904,8 @@ attachments ^pHjcWmOl
 		},
 		{
 			"type": "arrow",
-			"version": 692,
-			"versionNonce": 36630559,
+			"version": 693,
+			"versionNonce": 239734833,
 			"isDeleted": false,
 			"id": "QEWdUolXPJz7VzC5Gbomc",
 			"fillStyle": "hachure",
@@ -927,18 +924,14 @@ attachments ^pHjcWmOl
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1647968480503,
+			"updated": 1647968699410,
 			"link": null,
 			"startBinding": {
 				"elementId": "I95dVE-U4R7kPRvnIlC2w",
 				"gap": 1,
 				"focus": -0.4822697170192647
 			},
-			"endBinding": {
-				"elementId": "yLNL3en60X0fKgeBgMZj2",
-				"gap": 16,
-				"focus": 0.4819340953932164
-			},
+			"endBinding": null,
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
 			"endArrowhead": "arrow",
@@ -1193,157 +1186,6 @@ attachments ^pHjcWmOl
 			"verticalAlign": "top",
 			"containerId": null,
 			"originalText": "Link (MkLink):\nC:\\Users\\user\\Zotero\\storage"
-		},
-		{
-			"type": "rectangle",
-			"version": 77,
-			"versionNonce": 2111828914,
-			"isDeleted": false,
-			"id": "yLNL3en60X0fKgeBgMZj2",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 140,
-			"y": 320,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"width": 1520,
-			"height": 920,
-			"seed": 1165785134,
-			"groupIds": [],
-			"strokeSharpness": "sharp",
-			"boundElements": [
-				{
-					"id": "QEWdUolXPJz7VzC5Gbomc",
-					"type": "arrow"
-				}
-			],
-			"updated": 1647965444558,
-			"link": null
-		},
-		{
-			"type": "text",
-			"version": 285,
-			"versionNonce": 1480870446,
-			"isDeleted": false,
-			"id": "HzmeNA7I",
-			"fillStyle": "hachure",
-			"strokeWidth": 1,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 1180,
-			"y": 760,
-			"strokeColor": "#c92a2a",
-			"backgroundColor": "transparent",
-			"width": 284,
-			"height": 36,
-			"seed": 1715322926,
-			"groupIds": [
-				"wpzWeNvA6dFSR0b-tu2ja",
-				"hgePE0-OAl8oFqR9Fa88a"
-			],
-			"strokeSharpness": "sharp",
-			"boundElements": [],
-			"updated": 1647966226729,
-			"link": null,
-			"fontSize": 16,
-			"fontFamily": 2,
-			"text": "Actual location\nC:\\Users\\user\\OneDrive\\Zotero_storage",
-			"rawText": "Actual location\nC:\\Users\\user\\OneDrive\\Zotero_storage",
-			"baseline": 32,
-			"textAlign": "left",
-			"verticalAlign": "top",
-			"containerId": null,
-			"originalText": "Actual location\nC:\\Users\\user\\OneDrive\\Zotero_storage"
-		},
-		{
-			"type": "arrow",
-			"version": 37,
-			"versionNonce": 2139444223,
-			"isDeleted": false,
-			"id": "XlEv2f4SjEd68VpZ32C6g",
-			"fillStyle": "hachure",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 760,
-			"y": 740,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"width": 200,
-			"height": 140,
-			"seed": 594447534,
-			"groupIds": [
-				"hgePE0-OAl8oFqR9Fa88a"
-			],
-			"strokeSharpness": "round",
-			"boundElements": [],
-			"updated": 1647967336755,
-			"link": null,
-			"startBinding": null,
-			"endBinding": null,
-			"lastCommittedPoint": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow",
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					200,
-					-140
-				]
-			]
-		},
-		{
-			"type": "arrow",
-			"version": 176,
-			"versionNonce": 365497009,
-			"isDeleted": false,
-			"id": "J_hrVmbN993qtbnv6C4aQ",
-			"fillStyle": "hachure",
-			"strokeWidth": 2,
-			"strokeStyle": "solid",
-			"roughness": 1,
-			"opacity": 100,
-			"angle": 0,
-			"x": 720,
-			"y": 640,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
-			"width": 420,
-			"height": 180,
-			"seed": 1678281074,
-			"groupIds": [
-				"hgePE0-OAl8oFqR9Fa88a"
-			],
-			"strokeSharpness": "round",
-			"boundElements": [],
-			"updated": 1647967434240,
-			"link": null,
-			"startBinding": null,
-			"endBinding": null,
-			"lastCommittedPoint": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow",
-			"points": [
-				[
-					0,
-					0
-				],
-				[
-					420,
-					180
-				]
-			]
 		},
 		{
 			"type": "rectangle",
