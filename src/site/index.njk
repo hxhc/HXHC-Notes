@@ -3,9 +3,8 @@
   <head>
     <title>{{ title }}</title>
     {%include "components/pageheader.njk"%}
-    <link rel="icon"  type="image/jpeg" href="https://tvax4.sinaimg.cn/large/88eff492gy1h0byvoo0f1j208m08mmxg.jpg" />
   </head>
-  <body>
+  <body class="theme-{{meta.baseTheme}} markdown-preview-view">
     {%include "components/notegrowthhistory.njk"%}
     <div class="content">
       {%- for garden in collections.gardenEntry -%}
