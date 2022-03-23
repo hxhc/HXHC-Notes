@@ -6,14 +6,15 @@ permalink: "notes/{{ page.fileSlug | slugify }}/"
 <html lang="en">
   <head>
     <title>{{ page.fileSlug }}</title>
-    <link rel="icon"  type="image/jpeg" href="https://tvax4.sinaimg.cn/large/88eff492gy1h0byvoo0f1j208m08mmxg.jpg" />
     {%include "components/pageheader.njk"%}
   </head>
-  <body>
+  <body class="theme-{{meta.baseTheme}} markdown-preview-view">
     {%include "components/notegrowthhistory.njk"%}
 
     <div class="content">
-      <a href="/">🏡 Back Home</a>
+      {% if dgHomeLink !== false%}
+        <a href="/">🏡 Back Home</a>
+      {% endif %}
       {{ content | safe}}
     </div>
   </body>
