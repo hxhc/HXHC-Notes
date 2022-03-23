@@ -52,8 +52,13 @@ Mklink /j "C:\Users\用户名\Zotero\storage" "C:\Users\用户名\OneDrive\Zoter
 
 ## 简图
 
-<div class="transclusion internal-embed is-loaded">
+<div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
+<div class="markdown-embed-title">
+
+
+
+</div>
 
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
 
@@ -86,6 +91,8 @@ C:\Users\user\OneDrive\Zotero_storage ^d7sckug2
 
 Link (MkLink):
 C:\Users\user\Zotero\storage ^Rzx7vmWl
+
+attachments ^03hIh8kH
 
 
 # Embedded files
@@ -328,8 +335,8 @@ C:\Users\user\Zotero\storage ^Rzx7vmWl
 		},
 		{
 			"type": "text",
-			"version": 452,
-			"versionNonce": 1172166065,
+			"version": 453,
+			"versionNonce": 304855569,
 			"isDeleted": false,
 			"id": "2nYVPodO",
 			"fillStyle": "hachure",
@@ -348,7 +355,7 @@ C:\Users\user\Zotero\storage ^Rzx7vmWl
 			"groupIds": [],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1647968880574,
+			"updated": 1647969913185,
 			"link": null,
 			"fontSize": 28,
 			"fontFamily": 1,
@@ -362,8 +369,8 @@ C:\Users\user\Zotero\storage ^Rzx7vmWl
 		},
 		{
 			"type": "arrow",
-			"version": 1387,
-			"versionNonce": 1099626449,
+			"version": 1391,
+			"versionNonce": 534112305,
 			"isDeleted": false,
 			"id": "F1KuZFNMdmGSU8LFsuYSR",
 			"fillStyle": "hachure",
@@ -372,17 +379,17 @@ C:\Users\user\Zotero\storage ^Rzx7vmWl
 			"roughness": 2,
 			"opacity": 100,
 			"angle": 6.050040832470876,
-			"x": -522.904822809694,
-			"y": -37.51140552716731,
+			"x": -522.9040927372359,
+			"y": -37.51134050429129,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 138.31588698948724,
-			"height": 201.42473087124824,
+			"width": 138.3153404959436,
+			"height": 201.42459097461648,
 			"seed": 866980649,
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1647968880574,
+			"updated": 1647969913185,
 			"link": null,
 			"startBinding": {
 				"elementId": "KxNbQ5mf4CbKZHRsjP73A",
@@ -403,15 +410,15 @@ C:\Users\user\Zotero\storage ^Rzx7vmWl
 					0
 				],
 				[
-					138.31588698948724,
-					201.42473087124824
+					138.3153404959436,
+					201.42459097461648
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 2663,
-			"versionNonce": 714992063,
+			"version": 2664,
+			"versionNonce": 1593880415,
 			"isDeleted": false,
 			"id": "RjWV_-7dlu_WpW-BuGxju",
 			"fillStyle": "hachure",
@@ -430,7 +437,7 @@ C:\Users\user\Zotero\storage ^Rzx7vmWl
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1647968880574,
+			"updated": 1647969913185,
 			"link": null,
 			"startBinding": null,
 			"endBinding": {
@@ -454,8 +461,8 @@ C:\Users\user\Zotero\storage ^Rzx7vmWl
 		},
 		{
 			"type": "arrow",
-			"version": 890,
-			"versionNonce": 2075778545,
+			"version": 892,
+			"versionNonce": 1236490833,
 			"isDeleted": false,
 			"id": "tTJa2-suRJeVsGafeV_Yx",
 			"fillStyle": "hachure",
@@ -474,7 +481,7 @@ C:\Users\user\Zotero\storage ^Rzx7vmWl
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1647968880573,
+			"updated": 1647969913184,
 			"link": null,
 			"startBinding": {
 				"elementId": "KxNbQ5mf4CbKZHRsjP73A",
@@ -584,8 +591,8 @@ C:\Users\user\Zotero\storage ^Rzx7vmWl
 		},
 		{
 			"type": "text",
-			"version": 548,
-			"versionNonce": 1620035071,
+			"version": 549,
+			"versionNonce": 972399519,
 			"isDeleted": false,
 			"id": "2upcqXHR",
 			"fillStyle": "hachure",
@@ -604,7 +611,7 @@ C:\Users\user\Zotero\storage ^Rzx7vmWl
 			"groupIds": [],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1647968880575,
+			"updated": 1647969913186,
 			"link": null,
 			"fontSize": 28,
 			"fontFamily": 1,
@@ -694,8 +701,8 @@ C:\Users\user\Zotero\storage ^Rzx7vmWl
 		},
 		{
 			"type": "arrow",
-			"version": 1233,
-			"versionNonce": 95870321,
+			"version": 1234,
+			"versionNonce": 1147087313,
 			"isDeleted": false,
 			"id": "ystW1pN8s8RXJ4OMFWU-s",
 			"fillStyle": "solid",
@@ -714,7 +721,7 @@ C:\Users\user\Zotero\storage ^Rzx7vmWl
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1647968880576,
+			"updated": 1647969913187,
 			"link": null,
 			"startBinding": {
 				"elementId": "PLEDi3Rg",
@@ -926,8 +933,8 @@ C:\Users\user\Zotero\storage ^Rzx7vmWl
 		},
 		{
 			"type": "arrow",
-			"version": 406,
-			"versionNonce": 1541011345,
+			"version": 408,
+			"versionNonce": 1101811697,
 			"isDeleted": false,
 			"id": "iT3mOvaLO9KOATLmvjN0T",
 			"fillStyle": "hachure",
@@ -946,7 +953,7 @@ C:\Users\user\Zotero\storage ^Rzx7vmWl
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1647968880575,
+			"updated": 1647969913186,
 			"link": null,
 			"startBinding": {
 				"elementId": "Rzx7vmWl",
@@ -1051,8 +1058,8 @@ C:\Users\user\Zotero\storage ^Rzx7vmWl
 		},
 		{
 			"type": "arrow",
-			"version": 331,
-			"versionNonce": 314312529,
+			"version": 333,
+			"versionNonce": 56346545,
 			"isDeleted": false,
 			"id": "vjrAPyWehObaqWzKXU-cb",
 			"fillStyle": "hachure",
@@ -1071,7 +1078,7 @@ C:\Users\user\Zotero\storage ^Rzx7vmWl
 			"groupIds": [],
 			"strokeSharpness": "round",
 			"boundElements": [],
-			"updated": 1647968880577,
+			"updated": 1647969913188,
 			"link": null,
 			"startBinding": {
 				"elementId": "A8yHYGqO",
@@ -1175,29 +1182,30 @@ C:\Users\user\Zotero\storage ^Rzx7vmWl
 			"originalText": "Link (MkLink):\nC:\\Users\\user\\Zotero\\storage"
 		},
 		{
-			"id": "1RPfolFw",
 			"type": "image",
-			"x": 200,
-			"y": 300,
-			"width": 423.3473980309423,
-			"height": 500,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"version": 33,
+			"versionNonce": 33055313,
+			"isDeleted": false,
+			"id": "1RPfolFw",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
-			"strokeSharpness": "sharp",
+			"angle": 0,
+			"x": 200,
+			"y": 300,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 423.3473980309423,
+			"height": 500,
 			"seed": 51192,
-			"version": 33,
-			"versionNonce": 33055313,
-			"updated": 1647968908104,
-			"isDeleted": false,
 			"groupIds": [],
+			"strokeSharpness": "sharp",
 			"boundElements": [],
+			"updated": 1647968908104,
 			"link": null,
+			"status": "pending",
 			"fileId": "198ad55870cdce7b42ae93ba02e33f9fecbd457b",
 			"scale": [
 				1,
@@ -1205,34 +1213,123 @@ C:\Users\user\Zotero\storage ^Rzx7vmWl
 			]
 		},
 		{
-			"id": "zxhsYtvj",
 			"type": "image",
-			"x": 700,
-			"y": 300,
-			"width": 427.9210925644917,
-			"height": 500.00000000000006,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"version": 29,
+			"versionNonce": 922723089,
+			"isDeleted": false,
+			"id": "zxhsYtvj",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "solid",
 			"roughness": 1,
 			"opacity": 100,
-			"strokeSharpness": "sharp",
+			"angle": 0,
+			"x": 700,
+			"y": 300,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 427.9210925644917,
+			"height": 500.00000000000006,
 			"seed": 36958,
-			"version": 29,
-			"versionNonce": 922723089,
-			"updated": 1647968906237,
-			"isDeleted": false,
 			"groupIds": [],
+			"strokeSharpness": "sharp",
 			"boundElements": [],
+			"updated": 1647968906237,
 			"link": null,
+			"status": "pending",
 			"fileId": "11e7583f9c4c67d03a59d021fa327ca2bc682d63",
 			"scale": [
 				1,
 				1
 			]
+		},
+		{
+			"type": "rectangle",
+			"version": 463,
+			"versionNonce": 2000715839,
+			"isDeleted": false,
+			"id": "QHz-osZXMgu933ItHP8KV",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -280,
+			"y": -60,
+			"strokeColor": "#5f3dc4",
+			"backgroundColor": "transparent",
+			"width": 201,
+			"height": 45,
+			"seed": 824980479,
+			"groupIds": [],
+			"strokeSharpness": "sharp",
+			"boundElements": [
+				{
+					"id": "03hIh8kH",
+					"type": "text"
+				},
+				{
+					"id": "RjWV_-7dlu_WpW-BuGxju",
+					"type": "arrow"
+				},
+				{
+					"id": "8qjhnELroVGAmHCOWOmqI",
+					"type": "arrow"
+				},
+				{
+					"id": "iT3mOvaLO9KOATLmvjN0T",
+					"type": "arrow"
+				},
+				{
+					"id": "vjrAPyWehObaqWzKXU-cb",
+					"type": "arrow"
+				},
+				{
+					"id": "QEWdUolXPJz7VzC5Gbomc",
+					"type": "arrow"
+				},
+				{
+					"type": "text",
+					"id": "03hIh8kH"
+				}
+			],
+			"updated": 1647969918447,
+			"link": null
+		},
+		{
+			"type": "text",
+			"version": 437,
+			"versionNonce": 1491548497,
+			"isDeleted": false,
+			"id": "03hIh8kH",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": -275,
+			"y": -55,
+			"strokeColor": "#5f3dc4",
+			"backgroundColor": "transparent",
+			"width": 191,
+			"height": 35,
+			"seed": 1843416945,
+			"groupIds": [],
+			"strokeSharpness": "sharp",
+			"boundElements": [],
+			"updated": 1647969918447,
+			"link": null,
+			"fontSize": 28,
+			"fontFamily": 1,
+			"text": "attachments",
+			"rawText": "attachments",
+			"baseline": 25,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "QHz-osZXMgu933ItHP8KV",
+			"originalText": "attachments"
 		}
 	],
 	"appState": {
@@ -1259,7 +1356,7 @@ C:\Users\user\Zotero\storage ^Rzx7vmWl
 }
 ```
 %%
-</div>
+</div></div>
 
 
 ## 4. 其他参考
