@@ -1,1 +1,19 @@
-<svg id="图层_1" data-name="图层 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 237.67 237.67"><defs><style>.cls-1{fill:#7e67ac;opacity:0.91;}.cls-2{font-size:179px;fill:#fff;font-family:HGBD_CNKI;}</style></defs><rect class="cls-1" width="237.67" height="237.67" rx="53.77"/><text class="cls-2" transform="translate(51.31 168.93) scale(0.97 1)">H</text></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 237.7 237.7" style="enable-background:new 0 0 237.7 237.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{opacity:0.91;fill:#7E67AC;enable-background:new    ;}
+	.st1{enable-background:new    ;}
+	.st2{fill:#FFFFFF;}
+</style>
+<path class="st0" d="M53.8,0h130.1c29.7,0,53.8,24.1,53.8,53.8v130.1c0,29.7-24.1,53.8-53.8,53.8H53.8C24.1,237.7,0,213.6,0,183.9
+	V53.8C0,24.1,24.1,0,53.8,0z"/>
+<g>
+	<g class="st1">
+		<path class="st2" d="M70.1,60.4c0-2.8,2.3-5.1,5.1-5.1l29.7-0.2l-18.4,49c0,2.1,1.7,3.8,3.8,3.8h57.2c2,0,3.6-1.6,3.6-3.6
+			l-17.8-50.1l29.9,1c2.3,0,4.3,1.9,4.3,4.3v119c0,2.7-2.2,4.9-4.9,4.9h-27.5l15-56.6c0.5-1.9-0.9-3.8-2.9-3.8H90.3
+			c-2.1,0-3.8,1.7-3.8,3.8l14.4,56.6H70.1V60.4z"/>
+	</g>
+</g>
+</svg>
