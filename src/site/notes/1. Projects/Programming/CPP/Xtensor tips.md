@@ -219,9 +219,13 @@ std::vector<double> RunEigDecompTest(int size = 100, int loops = 10)
 It takes about $0.12$ s for the matrix with size $500 \times 500$.
 It takes about $0.62$ s for the matrix with size $1000 \times 1000$.
 It takes about $22.6$ s for the matrix with size $4000 \times 4000$.
+
 ```ad-note
 title: Hermitian Matrix Eigenvalue Decompostion
-use `xt::linalg::eigh()`:
+
+use ==xt::linalg::eigh ()==
+
+
 It takes about $0.014$ s for the matrix with size $500 \times 500$.
 It takes about $0.077$ s for the matrix with size $1000 \times 1000$.
 It takes about $4.8$ s for the matrix with size $4000 \times 4000$.
