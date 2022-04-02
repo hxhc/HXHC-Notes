@@ -146,7 +146,7 @@ sse2 Statistics:
 ```shell
  g++ xtensor_performance.cpp -o ./output/xtensor_performance -m64 -I ./libs  -I"${MKLROOT}/include"  -L${MKLROOT}/lib -Wl,-rpath=${MKLROOT}/lib -lmkl_intel_lp64 -lmkl_gnu_thread -lmkl_core -lgomp -lpthread -lm -ldl  -O3
 ```
-where ${MKLROOT} is referred to the installation location. See [[1. Projects/Programming/CPP/eigen tips#2 Install Intel OneMKL using conda|eigen tips]] for details.
+where `${MKLROOT}` is referred to the installation location. See [[1. Projects/Programming/CPP/Eigen tips#2 Install Intel OneMKL using conda|eigen tips]] for details.
 
 ## Performance test
 ### Matrix multiplication
