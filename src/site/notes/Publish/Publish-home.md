@@ -16,6 +16,6 @@ list where dg-publish=true & dg-home!=true
 
 ## C++ notes for matrix calculating libs
 1. [[1. Projects/Programming/CPP/Armadillo tips|Armadillo tips]]
-2. [[1. Projects/Programming/CPP/eigen tips|Eigen tips]]
+2. [[1. Projects/Programming/CPP/Eigen tips|Eigen tips]]
 3. [[1. Projects/Programming/CPP/Xtensor tips|Xtensor tips]]
 4. [[1. Projects/Programming/CPP/How to install Xtensor|Install Xtensor]]
