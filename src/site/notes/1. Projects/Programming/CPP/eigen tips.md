@@ -47,7 +47,6 @@ The link command can be referenced on [Intel MKL Link Line Advisor](https://www.
 ~~~shell
 > g++ eigen_performance.cpp -o ./output/eigen_performance -m64 -I ./libs  -I"${MKLROOT}/include"  -L${MKLROOT}/lib -Wl,-rpath=${MKLROOT}/lib -lmkl_intel_lp64 -lmkl_gnu_thread -lmkl_core -lgomp -lpthread -lm -ldl -march=native -O3 
 ~~~
-
 Note that there is ==no space== in `-Wl,-rpath=${MKLROOT}/lib`
 
 - *Openblas linking*
@@ -77,7 +76,7 @@ Eigen::ArrayXd RunMatMultTest(int size=100, size_t loops=10)
     Eigen::Rand::StdNormalGen<double> stdnorm;
     Eigen::ArrayXd duration_list(loops);
     Eigen::MatrixXd A = stdnorm.generate<Eigen::MatrixXd>(size, size, urng);
-    // #pragma omp parallel for num_threads(8)   // make no difference to performance indeed in this application
+    
     for (size_t i = 0; i < loops; ++i)
     {
         auto t0 = std::chrono::steady_clock::now();
@@ -117,7 +116,7 @@ Eigen::ArrayXd RunEigDecompTest(int size=100, int loops=10)
     Eigen::ArrayXd duration_list(loops);
     Eigen::MatrixXd A = stdnorm.generate<Eigen::MatrixXd>(size, size, urng);
     Eigen::MatrixXd COV = A*A.transpose();
-    // #pragma omp parallel for num_threads(8)   // make no difference to performance indeed in this application
+    
     for (int i = 0; i < loops; ++i)
     {
         auto t0 = std::chrono::steady_clock::now();
@@ -134,13 +133,12 @@ Linked to MKL, it takes about $0.03$ s for the matrix with size  $500\times 500$
 Linked to MKL, it takes about $0.19$ s for the matrix with size  $1000\times 1000$
 Linked to MKL, it takes about $8.5$ s for the matrix with size  $4000\times 4000$
 
-## 3.4 QR decomposition
-
-
 ```ad-note
 title: EigenSolvers
 
-Note that there are different EigenSolers implemented by `Eigen`. In the code above, the `SelfAdjointEigenSolver` is used for Hermitian (self-adjoint) matrix, which includes the covariance matrix in real applications. While the `SelfAdjointEigenSolver` is usually very fast. The corresponding versions of `SelfAdjointEigenSolver` in `Numpy` and `Xtensor` are `np.linalg.eigh()` and `xt::linalg::eigh()`, respectively. But the `Eigen` implementation is slower than [[1. Projects/Programming/CPP/Xtensor tips#Eigenvalue Decomposition|Xtensor]].
+Note that there are different EigenSolers implemented by ==Eigen==. In the code above, the ==SelfAdjointEigenSolver== is used for Hermitian (self-adjoint) matrix, which includes the covariance matrix in real applications. While the ==SelfAdjointEigenSolver== is usually very fast. The corresponding versions of ==SelfAdjointEigenSolver==in ==Numpy== and ==Xtensor== are ==np.linalg.eigh()== and ==xt::linalg::eigh()==, respectively. But the ==Eigen== implementation is slower than [[1. Projects/Programming/CPP/Xtensor tips#Eigenvalue Decomposition|Xtensor]].
 
-However, for a general EigenSolver (`EigenSolver`), the speed is slower. For $500\times 500$, the time is $0.10$ s; For $1000\times 1000$, the time is $0.63$ s; For $4000\times 4000$, the time is $46$ s, which is slower than `Numpy` and [[1. Projects/Programming/CPP/Xtensor tips#Eigenvalue Decomposition|Xtensor]].
+However, for a general EigenSolver (==EigenSolver==), the speed is slower. For $500\times 500$, the time is $0.10$ s; For $1000\times 1000$, the time is $0.63$ s; For $4000\times 4000$, the time is $46$ s, which is slower than ==Numpy== and [[1. Projects/Programming/CPP/Xtensor tips#Eigenvalue Decomposition|Xtensor]].
 ```
+
+## 3.4 QR decomposition
