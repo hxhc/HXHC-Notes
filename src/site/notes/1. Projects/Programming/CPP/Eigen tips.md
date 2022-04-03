@@ -62,7 +62,7 @@ Note that there is ==no space== in `-Wl,-rpath=${MKLROOT}/lib`
 - *Openblas linking*
 
 ```shell
-g++ eigen_performance.cpp -o ./output/eigen_performance -I ./libs  -I/opt/OpenBLAS/include  -L/opt/OpenBLAS/lib -Wl,-rpath=/opt/OpenBLAS/lib -lopenblas -march=native -O3  
+> g++ eigen_performance.cpp -o ./output/eigen_performance -I ./libs  -I/opt/OpenBLAS/include  -L/opt/OpenBLAS/lib -Wl,-rpath=/opt/OpenBLAS/lib -lopenblas -march=native -O3  
 ```
 
 ### 3.2 Matrix multiplication test
