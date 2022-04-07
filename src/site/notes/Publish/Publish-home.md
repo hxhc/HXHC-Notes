@@ -13,6 +13,7 @@ list where dg-publish=true & dg-home!=true
 3. [[3. Web-clip/利用OneDrive实现两台电脑间Zotero文献库的同步 - 知乎|利用OneDrive实现两台电脑间Zotero文献库的同步 - 知乎]]
 4. [[3. Web-clip/Mathjax test|Mathjax test]]
 5. [[3. Web-clip/excalidraw_test|excalidraw test]]
+6. [[Publish/test|Admonition test]]
 
 ## C++ notes for matrix calculating libs
 1. [[1. Projects/Programming/CPP/Armadillo tips|Armadillo tips]]
