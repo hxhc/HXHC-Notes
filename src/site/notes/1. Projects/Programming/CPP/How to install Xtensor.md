@@ -5,7 +5,14 @@
 Xtensor 系列主要包含 `xtl`, `xsimd`, `xtensor-blas`，`xtensor-fftw` 和 `xtensor`
 
 ## 1. Install `xtl`
-`sudo apt-get install xtl-dev`
+1. git clone
+2. make from source
+```shell
+mkdir build
+cd build
+cmake -DCMAKE_INSTALL_PREFIX=/path/to/prefix ..
+sudo make install
+```
 
 ## 2. Install `xsimd`
 - git clone
