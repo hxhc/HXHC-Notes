@@ -93,8 +93,38 @@ It takes about $0.077$ s for the matrix with size $1000 \times 1000$.
 It takes about $4.8$ s for the matrix with size $4000 \times 4000$.
 ```
 
-### QR decomposition
+### xt :: view
+The codes are referenced from [Roman Poya](https://romanpoya.medium.com/a-look-at-the-performance-of-expression-templates-in-c-eigen-vs-blaze-vs-fastor-vs-armadillo-vs-2474ed38d982)
 ```cpp
+template <typename T>
+T finite_difference_range_impl(xt::xtensor<T,2> &u, int num)
+{
+    xt::xtensor<T, 2> u_old = u;
+    view(u, range(1, num - 1), range(1, num - 1)) =
+        ((view(u_old, range(0, num - 2), range(1, num - 1)) + view(u_old, range(2, num - 0), range(1, num - 1)) +
+          view(u_old, range(1, num - 1), range(0, num - 2)) + view(u_old, range(1, num - 1), range(2, num - 0))) *
+             4.0 +
+         view(u_old, range(0, num - 2), range(0, num - 2)) + view(u_old, range(0, num - 2), range(2, num - 0)) +
+         view(u_old, range(2, num - 0), range(0, num - 2)) + view(u_old, range(2, num - 0), range(2, num - 0))) /
+        20.0;
+    return xt::linalg::norm(u - u_old);
+}
 
-
+std::vector<double> RunFiniteDiffTest(int size = 100, int loops = 10)
+{
+    xt::random::seed(time(NULL));
+    xt::xtensor<double, 2> A = xt::random::randn<double>({size, size});
+    std::vector<double> duration_list(loops);
+    for (int i = 0; i <= loops; ++i)
+    {
+        auto t0 = std::chrono::steady_clock::now();
+        auto result = finite_difference_range_impl<double> (A, size);
+        auto t1 = std::chrono::steady_clock::now();
+        std::chrono::duration<double> duration = t1 - t0;
+        duration_list[i] = duration.count();
+    }
+    return duration_list;
 ```
+It takes about $2.2\times 10^{-4}$ s for the matrix with size $100 \times 100$
+It takes about $6.3\times 10^{-3}$ s for the matrix with size $500 \times 500$
+It takes about $2.6\times 10^{-2}$ s for the matrix with size $1000 \times 1000$
