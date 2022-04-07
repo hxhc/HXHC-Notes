@@ -153,6 +153,9 @@ Note that there are different EigenSolers implemented by `Eigen`. In the code ab
 However, for a general EigenSolver (==EigenSolver==), the speed is slower. For $500\times 500$, the time is $0.10$ s; For $1000\times 1000$, the time is $0.63$ s; For $4000\times 4000$, the time is $46$ s, which is slower than ==Numpy== and [[1. Projects/Programming/CPP/Xtensor tips#Eigenvalue Decomposition|Xtensor]].
 ```
 
+> [!note]
+> Note that there are different EigenSolers implemented by `Eigen`. 
+
 ## 3.4 Slice view
 The codes are referenced from [Roman Poya](https://romanpoya.medium.com/a-look-at-the-performance-of-expression-templates-in-c-eigen-vs-blaze-vs-fastor-vs-armadillo-vs-2474ed38d982)
 ```cpp
