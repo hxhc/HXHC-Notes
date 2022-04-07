@@ -93,6 +93,30 @@ It takes about $0.077$ s for the matrix with size $1000 \times 1000$.
 It takes about $4.8$ s for the matrix with size $4000 \times 4000$.
 ```
 
+### QR factorization
+```cpp
+std::vector<double> RunQRTest(int size = 100, int loops = 10)
+{
+    xt::random::seed(time(NULL));
+    xt::xarray<double> A = xt::random::randn<double>({size, size});
+    std::vector<double> duration_list(loops);
+    for (int i = 0; i <= loops; ++i)
+    {
+        auto t0 = std::chrono::steady_clock::now();
+        auto B = xt::linalg::qr(A);
+        auto t1 = std::chrono::steady_clock::now();
+        std::chrono::duration<double> duration = t1 - t0;
+        duration_list[i] = duration.count();
+    }
+    return duration_list;
+}
+```
+It takes about $0.00096$ s for the matrix with size $100 \times 100$
+It takes about $0.049$ s for the matrix with size $1000 \times 1000$
+It takes about $24.2$ s for the matrix with size $10000 \times 10000$
+
+While the `numpy` version takes  $0.063$ s for the matrix with size $1000 \times 1000$, and $23.4$s for  the matrix with size $10000 \times 10000$.
+
 ### xt :: view
 The codes are referenced from [Roman Poya](https://romanpoya.medium.com/a-look-at-the-performance-of-expression-templates-in-c-eigen-vs-blaze-vs-fastor-vs-armadillo-vs-2474ed38d982)
 ```cpp
