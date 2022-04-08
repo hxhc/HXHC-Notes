@@ -10,7 +10,7 @@ Xtensor 系列主要包含 `xtl`, `xsimd`, `xtensor-blas`，`xtensor-fftw` 和 `
 ```shell
 mkdir build
 cd build
-cmake -DCMAKE_INSTALL_PREFIX=/path/to/prefix ..
+cmake ..
 sudo make install
 ```
 
@@ -25,7 +25,8 @@ sudo make install
 - `cmake ..`
 - `make install`
 
-在 `build` 下有一个 benchmark，名为`mandelbrot`，其结果如下，可以发现采用`AVX2`指令时，速度最快
+在 `build` 下有一个 benchmark，名为 `mandelbrot`，其结果如下，可以发现采用 `AVX2` 指令时，速度最快
+
 ```shell
 $ ./mandelbrot 
 starting benchmarks (results in 'ms')... 
