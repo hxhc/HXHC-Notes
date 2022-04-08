@@ -12,7 +12,7 @@ Install gfortran first.
 4. `make USE_OPENMP=1`，if openmp is not used, set 0.
 5. `make install`
 
-The output of  `make install` shows that Openblas in install in /opt/OpenBLAS
+The output of  `make install` shows that Openblas in install in `/opt/OpenBLAS`
 
 ```shell
 make -j 16 -f Makefile.install install
@@ -145,13 +145,11 @@ Linked to MKL, it takes about $0.03$ s for the matrix with size  $500\times 500$
 Linked to MKL, it takes about $0.19$ s for the matrix with size  $1000\times 1000$
 Linked to MKL, it takes about $8.5$ s for the matrix with size  $4000\times 4000$
 
-```ad-note
-title: EigenSolvers
-
-Note that there are different EigenSolers implemented by ==Eigen==. In the code above, the ==SelfAdjointEigenSolver== is used for Hermitian (self-adjoint) matrix, which includes the covariance matrix in real applications. While the ==SelfAdjointEigenSolver== is usually very fast. The corresponding versions of ==SelfAdjointEigenSolver==in ==Numpy== and ==Xtensor== are ==np.linalg.eigh()== and ==xt::linalg::eigh()==, respectively. But the ==Eigen== implementation is slower than [[1. Projects/Programming/CPP/Xtensor tips#Eigenvalue Decomposition|Xtensor]].
-
-However, for a general EigenSolver (==EigenSolver==), the speed is slower. For $500\times 500$, the time is $0.10$ s; For $1000\times 1000$, the time is $0.63$ s; For $4000\times 4000$, the time is $46$ s, which is slower than ==Numpy== and [[1. Projects/Programming/CPP/Xtensor tips#Eigenvalue Decomposition|Xtensor]].
-```
+> [!note] EigenSolvers
+> 
+> Note that there are different EigenSolers implemented by ==Eigen==. In the code above, the ==SelfAdjointEigenSolver== is used for Hermitian (self-adjoint) matrix, which includes the covariance matrix in real applications. While the ==SelfAdjointEigenSolver== is usually very fast. The corresponding versions of ==SelfAdjointEigenSolver==in ==Numpy== and ==Xtensor== are ==np.linalg.eigh()== and ==xt::linalg::eigh()==, respectively. But the ==Eigen== implementation is slower than [[1. Projects/Programming/CPP/Xtensor tips#Eigenvalue Decomposition|Xtensor]].
+> 
+> However, for a general EigenSolver (`EigenSolver`), the speed is slower. For $500\times 500$, the time is $0.10$ s; For $1000\times 1000$, the time is $0.63$ s; For $4000\times 4000$, the time is $46$ s, which is slower than `Numpy` and [[1. Projects/Programming/CPP/Xtensor tips#Eigenvalue Decomposition|Xtensor]].
 
 ### 3.4 Slice view
 The codes are referenced from [Roman Poya](https://romanpoya.medium.com/a-look-at-the-performance-of-expression-templates-in-c-eigen-vs-blaze-vs-fastor-vs-armadillo-vs-2474ed38d982)
