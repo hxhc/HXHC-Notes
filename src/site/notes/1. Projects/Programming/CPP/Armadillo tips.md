@@ -5,6 +5,7 @@
 ## 1. CSV file loading 
 1. The armadillo documentation specifies
 
+> [!important] Note
 > Using batch insertion constructors is generally much faster than consecutively inserting values using element access operators
 
 So here is the best I could come up with
