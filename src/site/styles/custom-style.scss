@@ -1,16 +1,17 @@
+// blue topaz
+.theme-light{
+    --admonition-bg-color: #badeff
+    }
+    :root{
+    --font-size-code: 0.9em
+}
+
 body {
     /***
       ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
-    
-// blue topaz
-    .theme-light{
-    --admonition-bg-color: #badeff
-    }
-    :root{
-    --font-size-code: 0.9em
-    }
+   
    
 // Global    
     font-family: Bookerly, Georgia, "Droid Serif", "Hiragino Sans GB", "Microsoft YaHei", "PingFang SC", "Droid Sans Fallback", sans-serif;
