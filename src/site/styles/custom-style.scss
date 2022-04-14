@@ -4,9 +4,9 @@ body {
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
 // blue topaz
-.theme-light{
-    --admonition-bg-color: #badeff
-    }
+.admonition {
+    background-color: #b4d7fba6; !important;
+}
 :root{
     --font-size-code: 0.9em
 }
