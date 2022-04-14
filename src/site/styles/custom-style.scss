@@ -7,32 +7,75 @@ body {
 .admonition {
     background-color: #b4d7fba6 !important;
 }
-    
+
+code {
+    font-size: 0.9em !important;
+    }
 // blue topaz list-no-boder
-body.list-no-border ul ul,
-body.list-no-border ol ul,
-body.list-no-border ul ol,
-body.list-no-border ol ol {
-  position: initial;
+ul ul,
+ol ul,
+ul ol,
+ol ol {
+  position: relative;
 }
 
-body.list-no-border ul ul::before,
-body.list-no-border ol ul::before,
-body.list-no-border ul ol::before,
-body.list-no-border ol ol::before {
-  all: initial;
+ul ul::before,
+ol ul::before,
+ul ol::before,
+ol ol::before {
+  content: '';
+  border-left: 2px solid #565656;
+  position: absolute;
 }
 
-body.list-no-border ul>li:not(.task-list-item) {
+ul ul::before,
+ol ul::before,
+ul ol::before,
+ol ol::before {
+  left: -17px;
+  top: 0px;
+  bottom: 0px;
+} 
+
+li > p:not(.task-list-item) {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+  
+ul > li:not(.task-list-item) {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-left: 0;
   border-left: none !important;
 }
-
-body.list-no-border ol>li {
+  
+ol > li {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-left: 0;
   border-left: none !important;
+} 
+
+ul,
+ol {
+  padding-inline-start: 30px;
 }
 
-body.list-no-line-in-edit .cm-hmd-list-indent .cm-tab::before {
-  all: initial;
+ol,
+ol ol,
+ol ol ol,
+ol ul ol,
+ol ol ol ol,
+ol ol ul ol,
+ol ul ol ol  {
+  list-style: decimal;
+}
+
+ol > li::marker {
+  font-weight: normal;
+  color: #0e0e0e;
 }
 
    
