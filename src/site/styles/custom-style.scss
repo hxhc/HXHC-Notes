@@ -7,9 +7,34 @@ body {
 .admonition {
     background-color: #b4d7fba6 !important;
 }
-:root{
-    --font-size-code: 0.9em
+    
+// blue topaz list-no-boder
+body.list-no-border ul ul,
+body.list-no-border ol ul,
+body.list-no-border ul ol,
+body.list-no-border ol ol {
+  position: initial;
 }
+
+body.list-no-border ul ul::before,
+body.list-no-border ol ul::before,
+body.list-no-border ul ol::before,
+body.list-no-border ol ol::before {
+  all: initial;
+}
+
+body.list-no-border ul>li:not(.task-list-item) {
+  border-left: none !important;
+}
+
+body.list-no-border ol>li {
+  border-left: none !important;
+}
+
+body.list-no-line-in-edit .cm-hmd-list-indent .cm-tab::before {
+  all: initial;
+}
+
    
 // Global    
     font-family: Bookerly, Georgia, "Droid Serif", "Hiragino Sans GB", "Microsoft YaHei", "PingFang SC", "Droid Sans Fallback", sans-serif;
