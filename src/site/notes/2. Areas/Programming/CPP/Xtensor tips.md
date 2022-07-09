@@ -83,7 +83,7 @@ It takes about $0.12$ s for the matrix with size $500 \times 500$.
 It takes about $0.62$ s for the matrix with size $1000 \times 1000$.
 It takes about $22.6$ s for the matrix with size $4000 \times 4000$.
 
-> [!note] Hermitian Matrix Eigenvalue Decompostion
+> [!note] Hermitian Matrix Eigenvalue Decomposition
 > 
 > use ==xt::linalg::eigh ()==
 > 
