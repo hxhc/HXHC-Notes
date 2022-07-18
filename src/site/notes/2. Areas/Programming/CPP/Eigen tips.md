@@ -148,9 +148,9 @@ Linked to MKL, it takes about $8.5$ s for the matrix with size  $4000\times 4000
 
 > [!note] EigenSolvers
 > 
-> Note that there are different EigenSolers implemented by ==Eigen==. In the code above, the ==SelfAdjointEigenSolver== is used for Hermitian (self-adjoint) matrix, which includes the covariance matrix in real applications. While the ==SelfAdjointEigenSolver== is usually very fast. The corresponding versions of ==SelfAdjointEigenSolver==in ==Numpy== and ==Xtensor== are ==np.linalg.eigh()== and ==xt::linalg::eigh()==, respectively. But the ==Eigen== implementation is slower than [[2. Areas/Programming/CPP/Xtensor tips#Eigenvalue Decomposition|Xtensor]].
+> Note that there are different EigenSolers implemented by ==Eigen==. In the code above, the `SelfAdjointEigenSolver` is used for Hermitian (self-adjoint) matrix, which includes the covariance matrix in real applications. While the `SelfAdjointEigenSolver` is usually very fast. The corresponding versions of `SelfAdjointEigenSolver` in ==Numpy== and ==Xtensor== are `np.linalg.eigh()` and `xt::linalg::eigh()`, respectively. But the ==Eigen== implementation is slower than ==[[2. Areas/Programming/CPP/Xtensor tips#Eigenvalue Decomposition|Xtensor]]==.
 > 
-> However, for a general EigenSolver (`EigenSolver`), the speed is slower. For $500\times 500$, the time is $0.10$ s; For $1000\times 1000$, the time is $0.63$ s; For $4000\times 4000$, the time is $46$ s, which is slower than `Numpy` and [[2. Areas/Programming/CPP/Xtensor tips#Eigenvalue Decomposition|Xtensor]].
+> However, for a general EigenSolver (`EigenSolver`), the speed is slower. For $500\times 500$, the time is $0.10$ s; For $1000\times 1000$, the time is $0.63$ s; For $4000\times 4000$, the time is $46$ s, which is slower than ==Numpy== and ==[[2. Areas/Programming/CPP/Xtensor tips#Eigenvalue Decomposition|Xtensor]]==.
 
 ### 3.4 Slice view
 The codes are referenced from [Roman Poya](https://romanpoya.medium.com/a-look-at-the-performance-of-expression-templates-in-c-eigen-vs-blaze-vs-fastor-vs-armadillo-vs-2474ed38d982)
@@ -176,7 +176,7 @@ Eigen::ArrayXd RunFiniteDiffTest(int size=100, int loops=10)
     Eigen::Rand::StdNormalGen<double> stdnorm;
     Eigen::ArrayXd duration_list(loops);
     Eigen::MatrixXd A = stdnorm.generate<Eigen::MatrixXd>(size, size, urng);
-    // #pragma omp parallel for num_threads(8)   // make no difference to performance indeed in this application
+    
     for (int i = 0; i < loops; ++i)
     {
         auto t0 = std::chrono::steady_clock::now();
@@ -195,9 +195,9 @@ It takes about $3.3\times 10^{-3}$ s for the matrix with size $1000 \times 1000$
 The results shows that `Eigen` performs much faster than [[2. Areas/Programming/CPP/Xtensor tips#xt view|Xtensor]].
 
 ### 3.5 QR factorization 
-Note that `Eigen` provides several QR methods, including HouseholderQr, colPivHouseholderQr, and fullPivHouseholderQr. The first one runs the fastest, but the numerical stability is the worst. And the last one is the slowest, but the accuracy is gauranteed. Generally, we can choose the colPivHouseholderQRr for a trade-off.
+Note that ==Eigen== provides several QR methods, including HouseholderQr, colPivHouseholderQr, and fullPivHouseholderQr. The first one runs the fastest, but the numerical stability is the worst. And the last one is the slowest, but the accuracy is gauranteed. Generally, we can choose the colPivHouseholderQRr for a trade-off.
 
-On the other hand, it seems that `numpy` only provides the Householder version.
+On the other hand, it seems that ==numpy== only provides the Householder version.
 ```cpp
 Eigen::ArrayXd RunQRTest(int size=100, int loops=10)
 {
@@ -205,7 +205,7 @@ Eigen::ArrayXd RunQRTest(int size=100, int loops=10)
     Eigen::Rand::StdNormalGen<double> stdnorm;
     Eigen::ArrayXd duration_list(loops);
     Eigen::MatrixXd A = stdnorm.generate<Eigen::MatrixXd>(size, size, urng);
-    // #pragma omp parallel for num_threads(8)   // make no difference to performance indeed in this application
+
     for (int i = 0; i < loops; ++i)
     {
         auto t0 = std::chrono::steady_clock::now();
